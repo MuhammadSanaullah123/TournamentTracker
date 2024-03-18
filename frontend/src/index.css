@@ -1,0 +1,29 @@
+:root {
+  --primary-color: #040818;
+  --secondary-color: #1b1a55;
+  --tertiary-color: rgb(218, 218, 218);
+}
+body {
+  margin: 0;
+  font-family: "Josefin Sans";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /*   background: radial-gradient(circle, #202020 0%, #141414 100%); */
+  background-color: var(--primary-color);
+  color: #fff;
+  /*   max-width: 1600px; */
+  margin: 0 auto;
+}
+p {
+  margin: 0;
+}
+h1 {
+  margin: 0;
+}
+h2 {
+  margin: 0;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
